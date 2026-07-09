@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUTICS - Aprendo Jugando</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f8ff;
+            padding: 2rem 1.2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            color: #2e7d32;
+            margin-bottom: 0.6rem;
+        }
+
+        .subtitulo {
+            font-size: 1.3rem;
+            color: #558b2f;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 1.8rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .boton {
+            background: #ffffff;
+            padding: 2rem 1rem;
+            border-radius: 24px;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+            border: 4px solid transparent;
+        }
+
+        .boton:hover {
+            transform: translateY(-5px);
+            border-color: #a5d6a7;
+        }
+
+        .icono {
+            font-size: 3.2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .nombre {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #2e7d32;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3.5rem;
+            padding-top: 1.5rem;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        footer a {
+            color: #2e7d32;
+            text-decoration: none;
+            margin: 0 0.6rem;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>EDUTICS</h1>
+        <p class="subtitulo">Aprendo jugando · Para niños de 5 años</p>
+    </header>
+
+    <div class="grid">
+        <a href="lectoescritura.html" class="boton">
+            <span class="icono">🔤</span>
+            <div class="nombre">Lectoescritura</div>
+        </a>
+
+        <a href="matematicas.html" class="boton">
+            <span class="icono">🔢</span>
+            <div class="nombre">Matemáticas</div>
+        </a>
+
+        <a href="ciencias.html" class="boton">
+            <span class="icono">🌱</span>
+            <div class="nombre">Ciencias y Entorno</div>
+        </a>
+
+        <a href="sociales.html" class="boton">
+            <span class="icono">🤝</span>
+            <div class="nombre">Convivencia y Emociones</div>
+        </a>
+
+        <a href="creatividad.html" class="boton">
+            <span class="icono">🎨</span>
+            <div class="nombre">Arte y Creatividad</div>
+        </a>
+
+        <a href="juegos.html" class="boton">
+            <span class="icono">🎯</span>
+            <div class="nombre">Juegos y Atención</div>
+        </a>
+    </div>
+
+    <footer>
+        <a href="privacidad.html">Política de Privacidad</a>
+        &nbsp;|&nbsp;
+        <a href="uso.html">Información de Uso</a>
+        <br><br>
+        <small>© 2026 EDUTICS · Sin publicidad · Segura para niños</small>
+    </footer>
+
+</body>
+</html>
